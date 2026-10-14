@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>olgac.org — open-source tools that explain themselves</title>
+  <meta name="description" content="olgac.org builds open-source tools for server operators: Systopsy (AI-assisted crash analysis), nöbet (SSH security audit), Oneglass (open-source CAASM), plus LiberCast, an IPTV player for Windows.">
+  <link rel="canonical" href="https://olgac.org/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="olgac.org">
+  <meta property="og:title" content="olgac.org — open-source tools that explain themselves">
+  <meta property="og:description" content="olgac.org builds open-source tools for server operators: Systopsy (AI-assisted crash analysis), nöbet (SSH security audit), Oneglass (open-source CAASM), plus LiberCast, an IPTV player for Windows.">
+  <meta property="og:url" content="https://olgac.org/">
+  <meta property="og:image" content="https://olgac.org/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fafbfc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0c11" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/brand/olgac-icon-180.png">
+  <script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"olgac.org","url":"https://olgac.org/","logo":"https://olgac.org/assets/brand/olgac-icon-512.png","email":"veysel@olgac.org","founder":{"@type":"Person","name":"Veysel Olgac"},"sameAs":["https://github.com/olgacveysel"]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand wordmark" href="index.html" aria-label="olgac.org home"><span class="br">[</span>olgac<span class="br">]</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#products">Products</a>
+      <a class="hide-sm" href="index.html#ai">AI</a>
+      <a class="hide-sm" href="index.html#roadmap">Roadmap</a>
+      <a class="hide-sm" href="index.html#about">About</a>
+      <a class="icon-btn" href="https://github.com/olgacveysel" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+      <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Open-source software studio</span>
+        <h1>Tools that <span class="hl">explain</span> themselves.</h1>
+        <p class="lead">olgac.org builds open-source tools for the people who keep servers running, and one for the living room.
+          Each one starts from a real operational problem and does one job well.</p>
+        <div class="cta">
+          <a class="btn primary" href="#products">Explore the products</a>
+          <a class="btn" href="https://github.com/olgacveysel"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> Follow on GitHub</a>
+        </div>
+        <ul class="rail" aria-label="Products">
+            <li><a href="nobet.html"><img src="assets/products/nobet/nobet-icon.svg" alt="">nöbet</a></li>
+            <li><a href="libercast.html"><span class="lc-tile"><img src="assets/products/libercast/libercast-mark.png" alt=""></span>LiberCast</a></li>
+            <li><a href="systopsy.html"><img src="assets/products/systopsy/systopsy-app-icon.svg" alt="">Systopsy</a></li>
+            <li><a href="oneglass.html"><img src="assets/products/oneglass/oneglass-icon-square.svg" alt="">Oneglass</a></li>
+          </ul>
+      </div>
+      <div class="hero-visual">
+        <div class="win" aria-label="Example Systopsy session">
+            <div class="bar"><i></i><i></i><i></i><span>systopsy — web-07</span></div>
+<pre class="term"><span class="d">$</span> <span class="w">systopsy analyze</span> <span class="k">./crash-2026-10-11</span> <span class="d">--ai claude</span>
+<span class="d">› collected</span>  kern.log · journal · dmesg · app logs
+<span class="d">› redacted</span>   3 secrets before analysis
+<span class="d">› timeline</span>   14 events in 92 s before reboot
+
+<span class="r">✗ crash</span>      OOM killer → mysqld (61.8 of 64 GiB)
+<span class="y">! cause</span>      buffer pool sized above 85% of RAM
+<span class="g">✓ fix</span>        cap buffer pool at 48G
+             set vm.swappiness=1
+<span class="d">  evidence   kern.log:18233, mysqld.err:902</span>
+
+<span class="d">ai: claude · also works with a local LLM,
+    any AI API, or offline rules only</span></pre>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <section id="products">
+    <div class="wrap">
+      <span class="eyebrow">Products</span>
+      <h2>Four tools, one approach</h2>
+      <p class="section-lead">Three tools for server operators, plus one app for everyone. All open source,
+        privacy-respecting and focused on doing one job well.</p>
+
+      <div class="toolkit">
+        <a href="oneglass.html"><span class="num">01 · Oneglass · CAASM</span><b>Know what you have</b>Find the servers your inventory, monitoring and security tools missed.</a>
+        <a href="nobet.html"><span class="num">02 · nöbet</span><b>Know it's locked down</b>Check SSH, sudo, open ports, updates and user access.</a>
+        <a href="systopsy.html"><span class="num">03 · Systopsy</span><b>Know why it broke</b>Turn crash evidence into a root-cause report.</a>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card product">
+          <div class="brand-band band-nobet"><img src="assets/products/nobet/nobet-lockup-on-dark.svg" alt="nöbet"></div>
+          <div class="body">
+            <div class="badges"><span class="badge live">Public beta</span><span class="badge">Open source</span></div>
+            <h3>nöbet <span class="tagline">· your servers' night watch</span></h3>
+            <p>A small terminal app that checks the security of your Linux servers over SSH. It's a lighter alternative to
+              Wazuh or OpenSCAP for teams with fewer than 50 servers.</p>
+            <ul class="check">
+              <li>SSH and sudo permissions, open ports, critical updates, user access</li>
+              <li>Scan the local host, or many servers at once over SSH</li>
+              <li>No agents to install on your servers</li>
+            </ul>
+            <div class="tags"><span class="tag">TUI</span><span class="tag">SSH</span><span class="tag">Linux</span></div>
+            <div class="actions">
+              <a class="btn primary" href="nobet.html">Learn more</a>
+              <a class="btn" href="https://github.com/olgacveysel/nobet"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="brand-band band-libercast"><img src="assets/products/libercast/libercast-banner.png" alt="LiberCast — open IPTV player"></div>
+          <div class="body">
+            <div class="badges"><span class="badge live">Public beta</span><span class="badge">Open source</span></div>
+            <h3>LiberCast</h3>
+            <p>A modern, open-source IPTV player for Windows. It's fast and clean, and it's careful with your provider's connection limits.
+              You bring your own sources. LiberCast ships no content.</p>
+            <ul class="check">
+              <li>Xtream Codes and M3U playlists</li>
+              <li>Live TV with EPG, Movies &amp; Series (VOD)</li>
+              <li>Recording and downloads, in English, Turkish and German</li>
+            </ul>
+            <div class="tags"><span class="tag">Electron</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Windows</span></div>
+            <div class="actions">
+              <a class="btn primary" href="libercast.html">Learn more</a>
+              <a class="btn" href="https://github.com/olgacveysel/libercast"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="brand-band band-systopsy"><img src="assets/products/systopsy/systopsy-logo-dark.svg" alt="Systopsy"></div>
+          <div class="body">
+            <div class="badges"><span class="badge plan">Coming next</span><span class="badge">Open source</span></div>
+            <h3>Systopsy</h3>
+            <p>An autopsy for crashed servers. Systopsy collects logs, kernel messages and service errors from a failed Linux host,
+              rebuilds the timeline and explains <em>why</em> it went down and what to change.</p>
+            <ul class="check">
+              <li>AI root-cause analysis with Claude, a local LLM or any AI API</li>
+              <li>Works with no AI at all: built-in rules and a readable report</li>
+              <li>Cites the exact log lines behind every conclusion</li>
+            </ul>
+            <div class="tags"><span class="tag">Linux</span><span class="tag">CLI</span><span class="tag">AI</span></div>
+            <div class="actions">
+              <a class="btn primary" href="systopsy.html">Learn more</a>
+              <span class="btn disabled" aria-disabled="true" title="Source code goes public at beta"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> Source soon</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="brand-band band-oneglass">
+            <div class="og-lockup"><img src="assets/products/oneglass/oneglass-mark-dark.svg" alt=""><span class="og-word"><span>one</span>glass</span></div>
+          </div>
+          <div class="body">
+            <div class="badges"><span class="badge plan">Coming soon</span><span class="badge">Open source</span></div>
+            <h3>Oneglass <span class="tagline">· open-source CAASM</span></h3>
+            <p>Lightweight cyber asset attack surface management (CAASM). Oneglass compares your inventory, monitoring,
+              security and virtualization tools and shows which servers are missing where.</p>
+            <ul class="check">
+              <li>Finds VMs that were never registered, monitored or protected</li>
+              <li>Pluggable: turn on only the tools you actually use</li>
+              <li>Terminal UI plus a simple web view</li>
+            </ul>
+            <div class="tags"><span class="tag">TUI</span><span class="tag">Web</span><span class="tag">Plugins</span></div>
+            <div class="actions">
+              <a class="btn primary" href="oneglass.html">Learn more</a>
+              <span class="btn disabled" aria-disabled="true" title="Source code goes public at beta"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> Source soon</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI -->
+  <section id="ai" class="alt">
+    <div class="wrap">
+      <span class="eyebrow">AI, your way</span>
+      <h2>Claude by default. Your model if you prefer.</h2>
+      <p class="section-lead">
+        Systopsy, our next release, turns raw crash evidence into a clear root-cause report. We build and test it with
+        Claude by Anthropic first, and it also runs on a local LLM, any AI API, or no AI at all.
+      </p>
+
+      <div class="flow">
+        <div class="card"><h3>Collect</h3><p>Gather kernel logs, journald, dmesg, service error logs and system metrics from the crashed host.</p></div>
+        <div class="card"><h3>Reduce</h3><p>Local parsers build a timeline and cut gigabytes of logs down to the lines that matter, with secrets redacted.</p></div>
+        <div class="card"><h3>Analyze</h3><p>The model you choose correlates events, ranks likely causes and cites the exact log lines.</p></div>
+        <div class="card"><h3>Act</h3><p>You get a readable report: root cause, confidence level and concrete config or command fixes.</p></div>
+      </div>
+
+      <h3 style="margin:48px 0 18px;font-size:22px">Choose where the analysis runs</h3>
+      <div class="grid grid-4">
+        <div class="card provider featured">
+          <span class="badge plan pill">Default</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg></div>
+          <h3>Claude</h3>
+          <p>Our primary, best-supported provider, through the Claude API.</p>
+        </div>
+        <div class="card provider">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0zM12 18v4"/></svg></div>
+          <h3>Any AI API</h3>
+          <p>Bring your own key for another provider, including OpenAI-compatible endpoints.</p>
+        </div>
+        <div class="card provider">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg></div>
+          <h3>Local LLM</h3>
+          <p>Run a model on your own hardware, for example with Ollama or LM Studio. Nothing leaves your network.</p>
+        </div>
+        <div class="card provider">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h12M9 12h12M9 18h12M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg></div>
+          <h3>No AI</h3>
+          <p>Built-in rules catch common failures, and you can export a ready-made prompt to paste anywhere.</p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:20px">
+        <div class="split" style="gap:32px">
+          <div>
+            <h3>What Claude for Startups unlocks</h3>
+            <p>Credits let us make Claude the easiest way to use Systopsy and speed up how we build all four products.</p>
+          </div>
+          <ul class="check">
+            <li>A free hosted analysis tier, so open-source users can try AI mode without their own API key</li>
+            <li>An evaluation set of real crash scenarios to tune prompts and compare models</li>
+            <li>Faster development of all four products with Claude Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Roadmap</span>
+        <h2>Where we're going</h2>
+        <p class="section-lead">One product at a time, built in the open. Two are already in public beta.</p>
+        <a class="btn" href="https://github.com/olgacveysel"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> Watch the repos</a>
+      </div>
+      <ol class="timeline">
+        <li class="done"><div class="when">Oct 2026</div><div class="what"><b>LiberCast public beta ✓</b><span>Windows IPTV player with Live TV, EPG, VOD and recording in English, Turkish and German.</span></div></li>
+        <li class="done"><div class="when">Oct 2026</div><div class="what"><b>nöbet public beta ✓</b><span>Terminal security audit over SSH: SSH and sudo settings, open ports, pending updates and user access.</span></div></li>
+        <li><div class="when">Next</div><div class="what"><b>Systopsy public beta</b><span>Crash collector, timeline builder and offline rule engine, plus AI root-cause reports with Claude, any AI API or a local LLM.</span></div></li>
+        <li><div class="when">After that</div><div class="what"><b>Oneglass public beta</b><span>Open-source CAASM: a coverage-gap report across inventory, monitoring, security and virtualization sources.</span></div></li>
+        <li><div class="when">Later</div><div class="what"><b>Hosted Systopsy</b><span>Optional web dashboard for teams: incident history, shared reports and patterns across servers.</span></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="alt">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Why us</span>
+        <h2>Built by someone who gets paged at 3 a.m.</h2>
+        <p class="section-lead">
+          olgac.org is run by Veysel Olgac, a Linux system engineer who looks after production infrastructure every day,
+          with a background in security, monitoring and alerting. He has mostly worked with open-source software,
+          so building in the open comes naturally.
+        </p>
+        <p class="section-lead">
+          Every tool comes out of that work. Systopsy is for the crash whose answer is spread across five log files.
+          nöbet is for small teams that need a security check but can't run a full security platform.
+          Oneglass is for the VM that never made it into the inventory or the monitoring.
+        </p>
+        <div class="card founder flat">
+          <div class="avatar" aria-hidden="true">VO</div>
+          <div>
+            <h3>Veysel Olgac</h3>
+            <p>Founder &amp; engineer</p>
+            <div class="links">
+              <a class="btn" href="mailto:veysel@olgac.org"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> veysel@olgac.org</a>
+              <a class="btn" href="https://github.com/olgacveysel"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> olgacveysel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="card"><h3>Open source first</h3><p>All code is public. Audit it, self-host it, contribute to it. Nothing is locked in.</p></div>
+        <div class="card"><h3>Privacy by default</h3><p>Your data stays on your machines unless you choose to send it somewhere. No telemetry by default.</p></div>
+        <div class="card"><h3>Operator-grade</h3><p>Designed around real production failure modes, not demo data.</p></div>
+        <div class="card"><h3>AI-assisted, never AI-dependent</h3><p>AI makes the tools faster. Every core feature still works without it.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>Follow the build</h2>
+        <p class="lead">Everything is built in the open. Questions, ideas, or want to try an early version? Get in touch.</p>
+        <div class="cta">
+          <a class="btn primary" href="mailto:veysel@olgac.org"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> veysel@olgac.org</a>
+          <a class="btn" href="https://github.com/olgacveysel"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> github.com/olgacveysel</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand wordmark" href="index.html" aria-label="olgac.org home"><span class="br">[</span>olgac<span class="br">]</span></a>
+        <p style="max-width:40ch;margin:12px 0 0">Open-source tools for the people who keep servers running, and one for the living room.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li><a href="systopsy.html">Systopsy</a></li>
+          <li><a href="nobet.html">nöbet</a></li>
+          <li><a href="oneglass.html">Oneglass</a></li>
+          <li><a href="libercast.html">LiberCast</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:veysel@olgac.org">veysel@olgac.org</a></li>
+          <li><a href="https://github.com/olgacveysel">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 olgac.org</span>
+      <span>All products are open source.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
